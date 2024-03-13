@@ -1,0 +1,8 @@
+(setq inhibit-startup-screen t)
+(setq make-backup-files nil)
+(put 'upcase-region 'disabled nil)
+(set-background-color "wheat")
+
+(set-frame-font "Monospace-10")
+(set-cursor-color "red")
+
