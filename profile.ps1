@@ -1,5 +1,5 @@
 # Change the current directory to D:\chemreg\env\Scripts
-Set-Location -Path D:\chemreg\env\Scripts
+Set-Location -Path C:\Users\mats.dahlberg\Documents\venv312\Scripts
 
 # Check if the D:\tmp directory exists and change directory
 if (Test-Path .\activate.ps1) {
@@ -11,4 +11,7 @@ if (Test-Path .\activate.ps1) {
 
 function bg() {Start-Process -NoNewWindow @args}
 
-$env:Path += ';D:\emacs\emacs-29.1\bin'
+$env:Path += ';C:\Users\mats.dahlberg\Documents\emacs\bin'
+
+
+
